@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="restaurantes">
-        <item>Restaurante 1</item>
+        <item>Tots</item>
         <item>Restaurante 2</item>
         <item>Restaurante 3</item>
         <item>Restaurante 4</item>
