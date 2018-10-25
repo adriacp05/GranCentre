@@ -1,25 +1,325 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".restaurants">
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Nom"/>
     <Spinner
         android:id="@+id/spinnerrestaurants"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         />
-    <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="5">
 
-    </TableLayout>
+
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="120dp"
+            android:id="@+id/res1"
+            android:background="@drawable/wagaya"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowSpan="5"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wagaya"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Japones · C/Girona 32"
+            android:textSize="18dp"
+            android:layout_column="1"
+            android:layout_row="2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="931 58 34 81"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:textSize="14dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wagaya.es"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:textSize="14dp"
+
+            />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="5">
 
 
-</android.support.constraint.ConstraintLayout>
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="120dp"
+            android:id="@+id/res2"
+            android:background="@drawable/posta"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowSpan="5"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Posta 36"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurante · C/Joan Prim 6"
+            android:textSize="18dp"
+            android:layout_column="1"
+            android:layout_row="2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="931 58 34 81"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:textSize="14dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wagaya.es"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:textSize="14dp"
+
+            />
+
+    </GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="5">
+
+
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="120dp"
+            android:id="@+id/res3"
+            android:background="@drawable/europa"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowSpan="5"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fonda Europa"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurante · C/Marià Sans 32"
+            android:textSize="18dp"
+            android:layout_column="1"
+            android:layout_row="2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="931 58 34 81"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:textSize="14dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hotelfondaeuropa.com"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:textSize="14dp"
+
+            />
+
+    </GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="5">
+
+
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="120dp"
+            android:id="@+id/res4"
+            android:background="@drawable/anima"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowSpan="5"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ànima de Granollers"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Japones · C/Girona 4"
+            android:textSize="18dp"
+            android:layout_column="1"
+            android:layout_row="2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="931 58 34 81"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:textSize="14dp"
+
+            />
+
+
+    </GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="5">
+
+
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="120dp"
+            android:id="@+id/res5"
+            android:background="@drawable/taverna"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowSpan="5"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La Taverna d'en Grivé"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurante · C/Josep Maria de Segarra 98"
+            android:textSize="18dp"
+            android:layout_column="1"
+            android:layout_row="2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="931 58 34 81"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:textSize="14dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tavernagrive.cat"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:textSize="14dp"
+
+            />
+
+    </GridLayout>
+
+
+</LinearLayout>
