@@ -36,7 +36,7 @@
                 android:layout_column="0"
                 android:layout_margin="5dp"
                 android:id="@+id/peliImagen1"
-                android:src="@drawable/business_imagen1"/>
+                android:src="@drawable/tienda1"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
                 android:layout_column="0"
                 android:layout_margin="5dp"
                 android:id="@+id/peliImagen2"
-                android:src="@drawable/business_imagen2"/>
+                android:src="@drawable/tienda1"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -107,7 +107,7 @@
                 android:layout_column="0"
                 android:layout_margin="5dp"
                 android:id="@+id/peliImagen3"
-                android:src="@drawable/business_imagen3"/>
+                android:src="@drawable/tienda1"/>
 
             <TextView
                 android:layout_width="wrap_content"
