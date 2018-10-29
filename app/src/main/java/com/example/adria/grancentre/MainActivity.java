@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import android.R.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,12 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View v) {
 
-        if (v == business) startActivity(new Intent(this, businesses.class));
+        if (v == business) startActivity(new Intent(this, Businesses.class));
         else if (v == events) startActivity(new Intent(this, events.class));
-        else if (v == hotels) startActivity(new Intent(this, hotels.class));
-        else if (v == movies) startActivity(new Intent(this, movies.class));
-        else if (v == restaurants) startActivity(new Intent(this, restaurants.class));
-        else if (v == weather) startActivity(new Intent(this, weather.class));
+        else if (v == hotels) startActivity(new Intent(this, Hotels.class));
+        else if (v == movies) startActivity(new Intent(this, Movies.class));
+        else if (v == restaurants) startActivity(new Intent(this, Restaurants.class));
+        else if (v == weather) startActivity(new Intent(this, Weather.class));
         else Toast.makeText(getApplicationContext(), v.toString(), Toast.LENGTH_LONG).show();
     }
 }

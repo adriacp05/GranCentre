@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class restaurants extends AppCompatActivity {
+public class Restaurants extends AppCompatActivity {
 
 
 

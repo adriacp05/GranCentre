@@ -9,7 +9,7 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class businesses extends AppCompatActivity {
+public class Businesses extends AppCompatActivity {
 
     public Button bttTiendas, bttRestaurantes, bttOcio, bttServicios;
     public TextView empTitulo1, empTexto1, empTelefono1, empTitulo2, empTexto2, empTelefono2, empTitulo3, empTexto3, empTelefono3;

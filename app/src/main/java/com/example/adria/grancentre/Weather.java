@@ -3,7 +3,7 @@ package com.example.adria.grancentre;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class weather extends AppCompatActivity {
+public class Weather extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

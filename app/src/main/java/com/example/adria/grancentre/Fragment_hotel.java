@@ -12,14 +12,14 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link fragment_hotel.OnFragmentInteractionListener} interface
+ * {@link Fragment_hotel.OnFragmentInteractionListener} interface
  * to handle interaction events.
  */
-public class fragment_hotel extends Fragment {
+public class Fragment_hotel extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public fragment_hotel() {
+    public Fragment_hotel() {
         // Required empty public constructor
     }
 
