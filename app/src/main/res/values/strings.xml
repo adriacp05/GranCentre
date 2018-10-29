@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GranCentre</string>
+    <string name="textHoteles">Hoteles</string>
+
+
 </resources>

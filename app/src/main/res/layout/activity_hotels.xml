@@ -13,11 +13,9 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Hoteles"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:textSize="40dp"/>
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/titulo"
+            android:text="@string/textHoteles"/>
 
         <Spinner
             android:id="@+id/spinnerHoteles"
