@@ -5,4 +5,66 @@
         <item>Japines</item>
         <item>Vegetariano</item>
     </string-array>
+
+    <string-array name="spinnerHoteles">
+        <item>*</item>
+        <item>**</item>
+        <item>***</item>
+        <item>****</item>
+        <item>*****</item>
+    </string-array>
+
+    <string-array name="hotel1">
+        <item>Ciutat de Granollers</item>
+        <item>httºps://ca.ciutathotels.com/hotel-ciutat-granollers-a-barcelona/</item>
+        <item>938 796 220</item>
+        <item>Turó Bruguet, 2, 08402 Granollers, España</item>
+        <item>@drawable/hotel_ciutatgranollers</item>
+        <item>****</item>
+    </string-array>
+
+    <string-array name="hotel2">
+        <item>Aparthotel Atenea Valles</item>
+        <item>https://www.aparthotelateneavalles.com/es/</item>
+        <item>938 794 820</item>
+        <item>Aragón, 49, 08400 Granollers, España</item>
+        <item>@drawable/hotel_atenea</item>
+        <item>****</item>
+    </string-array>
+
+    <string-array name="hotel3">
+        <item>Fonda Europa</item>
+        <item>http://www.hotelfondaeuropa.com/</item>
+        <item>938 700 312</item>
+        <item>C/ Anselm Clavé, 1, 08402, Granollers, España</item>
+        <item>@drawable/hotel_fondaeuropa</item>
+        <item>***</item>
+    </string-array>
+
+    <string-array name="hotel4">
+        <item>Hotel Granollers</item>
+        <item>www.hotelgranollers.com</item>
+        <item>938 795 100</item>
+        <item>Av Francesc Macià, 300 , 08400, Granollers, España</item>
+        <item>@drawable/hotel_granollers</item>
+        <item>***</item>
+    </string-array>
+
+    <string-array name="hotel5">
+        <item>Hotel H</item>
+        <item>hotelh.es</item>
+        <item>Carretera del Masnou km 14, 08400 Granollers, España</item>
+        <item>938 613 237</item>
+        <item>@drawable/hotel_hotelh</item>
+        <item>**</item>
+    </string-array>
+
+    <string-array name="hotel6">
+        <item>Ibis Montmelo Granollers</item>
+        <item>https://www.accorhotels.com/es/hotel-5258-ibis-barcelona-montmelo-granollers/index.shtml</item>
+        <item>C. Can Gordi 1 Pol. Ind. Can Catala Poligono industrial, Granollers, 08403, GRANOLLERS, ESPAÑA</item>
+        <item>935 689 060</item>
+        <item>@drawable/hotel_ibisgranollers</item>
+        <item>**</item>
+    </string-array>
 </resources>
