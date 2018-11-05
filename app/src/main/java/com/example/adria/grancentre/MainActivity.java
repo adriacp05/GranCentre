@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClick(View v) {
+
+        /*
         int id = v.getId();
 
         switch (id) {
@@ -53,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btWeather:
                 startActivity(new Intent(this, Weather.class));
                 break;
-        }
+        }*/
 
         if (v == business) startActivity(new Intent(this, Businesses.class));
         else if (v == events) startActivity(new Intent(this, events.class));
