@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">GranCentre</string>
     <string name="textHoteles">Hoteles</string>
+    <string name="textEventos">Eventos</string>
 </resources>

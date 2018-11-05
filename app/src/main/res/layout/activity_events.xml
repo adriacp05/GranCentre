@@ -1,9 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".events">
+    tools:context=".events"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titulo"
+        android:text="@string/textEventos"
+        android:layout_gravity="center_horizontal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/event_foto1"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="5"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/event_1" />
+
+                <TextView
+                    android:id="@+id/event_nombre1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="Fotografies antigues"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/event_cuando1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="6 nov. 2018 - 11:00h"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/event_donde1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="Can Jonch. Centre de Cultura per la Pau"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/event_quien1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="Grup de treball de l'Arxiu Municipa"
+                    android:textSize="14dp" />
+
+            </GridLayout>
+
+            <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="5">
+
+            <ImageView
+                android:id="@+id/event_foto2"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_rowSpan="5"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:background="@drawable/event_2" />
+
+            <TextView
+                android:id="@+id/event_nombre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:text="Fira de Brocanters"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/event_cuando2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:text="10 nov. 2018 - 09:00h"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/event_donde2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:text="Plaça de Josep Maluquer i Salvador"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/event_quien2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:text="Tot el dia"
+                android:textSize="14dp" />
+
+        </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/event_foto3"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="5"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/event_3" />
+
+                <TextView
+                    android:id="@+id/event_nombre3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="DiverCinema"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/event_cuando3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="18 gen. 2019 - 17:30h"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/event_donde3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="Centre Cívic Jaume Oller"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/event_quien3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="Taller de metamorfosi plastilínica"
+                    android:textSize="14dp" />
+
+            </GridLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
