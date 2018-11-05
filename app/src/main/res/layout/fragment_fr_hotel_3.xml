@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fr_hotel_3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/fr_hotel31_imagen"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="5"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/wagaya" />
+
+                <TextView
+                    android:id="@+id/fr_hotel31_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="Fonda Europa"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:id="@+id/fr_hotel31_calle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="C/ Anselm Clavé, 1, 08402, Granollers, España"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel31_numero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="938 700 312"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel31_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:text="http://www.hotelfondaeuropa.com"
+                    android:textSize="14dp" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/fr_hotel32_imagen"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="5"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/hotel_granollers" />
+
+                <TextView
+                    android:id="@+id/fr_hotel32_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="Hotel Granollers"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:id="@+id/fr_hotel32_calle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="Av Francesc Macià, 300 , 08400, Granollers, España"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel32_numero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="938 795 100"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel32_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:text="http://www.hotelgranollers.com"
+                    android:textSize="14dp" />
+
+            </GridLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fr_hotel_2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/fr_hotel21_imagen"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="5"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/hotel_hotelh" />
+
+                <TextView
+                    android:id="@+id/fr_hotel21_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="Hotel H"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:id="@+id/fr_hotel21_calle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="Carretera del Masnou km 14, 08400 Granollers, España"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel21_numero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="938 613 237"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel21_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:text="http://hotelh.es"
+                    android:textSize="14dp" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/fr_hotel22_imagen"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="5"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/hotel_ibisgranollers" />
+
+                <TextView
+                    android:id="@+id/fr_hotel22_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="Ibis Montmelo Granollers"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:id="@+id/fr_hotel22_calle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="C. Can Gordi 1 Pol. Ind. Can Catala Poligono industrial, España"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel22_numero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="935 689 060"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel22_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:text="http://www.accorhotels.com/es/hotel-5258-ibis-barcelona-montmelo-granollers/index.shtml"
+                    android:textSize="14dp" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

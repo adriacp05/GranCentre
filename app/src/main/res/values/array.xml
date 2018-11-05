@@ -16,7 +16,7 @@
 
     <string-array name="hotel1">
         <item>Ciutat de Granollers</item>
-        <item>httºps://ca.ciutathotels.com/hotel-ciutat-granollers-a-barcelona/</item>
+        <item>https://ca.ciutathotels.com/hotel-ciutat-granollers-a-barcelona/</item>
         <item>938 796 220</item>
         <item>Turó Bruguet, 2, 08402 Granollers, España</item>
         <item>@drawable/hotel_ciutatgranollers</item>

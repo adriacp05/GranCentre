@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fr_hotel_4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/fr_hotel41_imagen"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="5"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/hotel_ciutatgranollers" />
+
+                <TextView
+                    android:id="@+id/fr_hotel41_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="Ciutat de Granollers"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:id="@+id/fr_hotel41_calle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="Turó Bruguet, 2, 08402 Granollers, España"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel41_numero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="938 796 220"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel41_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:text="http://ca.ciutathotels.com/hotel-ciutat-granollers-a-barcelona"
+                    android:textSize="14dp" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/fr_hotel42_imagen"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="5"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/hotel_atenea" />
+
+                <TextView
+                    android:id="@+id/fr_hotel42_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="Aparthotel Atenea Valles"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:id="@+id/fr_hotel42_calle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="Aragón, 49, 08400 Granollers, España"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel42_numero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="938 794 820"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/fr_hotel42_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:text="http://www.aparthotelateneavalles.com/es"
+                    android:textSize="14dp" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

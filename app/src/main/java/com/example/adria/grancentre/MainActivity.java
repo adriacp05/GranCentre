@@ -32,6 +32,28 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClick(View v) {
+        int id = v.getId();
+
+        switch (id) {
+            case R.id.btBusinesses:
+                startActivity(new Intent(this, Businesses.class));
+                break;
+            case R.id.btEvents:
+                startActivity(new Intent(this, events.class));
+                break;
+            case R.id.btHotels:
+                startActivity(new Intent(this, Hotels.class));
+                break;
+            case R.id.btMovies:
+                startActivity(new Intent(this, Movies.class));
+                break;
+            case R.id.btRestaurants:
+                startActivity(new Intent(this, Restaurants.class));
+                break;
+            case R.id.btWeather:
+                startActivity(new Intent(this, Weather.class));
+                break;
+        }
 
         if (v == business) startActivity(new Intent(this, Businesses.class));
         else if (v == events) startActivity(new Intent(this, events.class));
